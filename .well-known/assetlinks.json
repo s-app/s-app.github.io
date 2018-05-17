@@ -2,6 +2,15 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
+    "package_name": "com.fujitsu.fjh.auth.test",
+    "sha256_cert_fingerprints":
+    ["02:D4:2B:83:E7:56:F5:AA:3F:12:5C:3E:2A:05:8F:25:EE:6F:C1:43:A5:32:73:96:93:FB:F0:2A:21:2B:EC:69"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
     "package_name": "com.fujitsu.fjh.auth.fapipoc",
     "sha256_cert_fingerprints":
     ["02:D4:2B:83:E7:56:F5:AA:3F:12:5C:3E:2A:05:8F:25:EE:6F:C1:43:A5:32:73:96:93:FB:F0:2A:21:2B:EC:68"]
