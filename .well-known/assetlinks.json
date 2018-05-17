@@ -11,8 +11,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.fujitsu.fjh.auth.fapipoc",
+    "package_name": "com.noknok.android.tutorialappplus",
     "sha256_cert_fingerprints":
-    ["02:D4:2B:83:E7:56:F5:AA:3F:12:5C:3E:2A:05:8F:25:EE:6F:C1:43:A5:32:73:96:93:FB:F0:2A:21:2B:EC:68"]
+    ["F1:C0:35:0C:F3:54:42:60:21:4B:56:6B:B6:6A:39:18:62:58:01:24:62:61:41:FA:BE:9F:CE:3C:1A:68:28:88"]
   }
 }]
