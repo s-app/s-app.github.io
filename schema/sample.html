@@ -3,6 +3,9 @@
   <script type="text/javascript">
 　  function sample() {
       alert('SET');
+      var iframe = document.createElement('iframe');
+      iframe.src = 'kuwpsample:';
+      document.body.appendChild(iframe);
     }
   </script>
   <A href="msnweather:">Weather</A><br/>
@@ -13,7 +16,7 @@
   <A href="slack:">Slack</A><br/>
   <a href="note:">Notepad</a><br/>
   <A href="kuwpsample:">kuwpsample</A><br/>
-  <input type="button" value="sample()" onClick="sample()">
+  <input type="button" value="SAMPLE" onClick="sample()">
 
 </BODY>
 </HTML>
