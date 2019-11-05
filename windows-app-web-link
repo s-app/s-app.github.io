@@ -1,6 +1,6 @@
 [
   {
-    "packageFamilyName": "Sample_9jmtgj1pbbz6e",
+    "packageFamilyName": "KUWPSample_sy226bnqh9h8y",
     "paths": [ "*" ],
     "excludePaths" : [ "/news/*", "/blog/*" ]
   }
