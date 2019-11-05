@@ -1,0 +1,7 @@
+[
+  {
+    "packageFamilyName": "Sample_9jmtgj1pbbz6e",
+    "paths": [ "*" ],
+    "excludePaths" : [ "/news/*", "/blog/*" ]
+  }
+]
