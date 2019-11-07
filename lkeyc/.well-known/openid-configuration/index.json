@@ -1,12 +1,12 @@
 {
-	"issuer":"https://192.168.60.10/auth/realms/demo"
-	,"authorization_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/auth"
-	,"token_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/token"
-	,"token_introspection_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/token/introspect"
-	,"userinfo_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/userinfo"
-	,"end_session_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/logout"
-	,"jwks_uri":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/certs"
-	,"check_session_iframe":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/login-status-iframe.html"
+	 "issuer":"http://localhost:8082/auth/realms/demo"
+	,"authorization_endpoint":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/auth"
+	,"token_endpoint":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/token"
+	,"token_introspection_endpoint":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/token/introspect"
+	,"userinfo_endpoint":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/userinfo"
+	,"end_session_endpoint":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/logout"
+	,"jwks_uri":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/certs"
+	,"check_session_iframe":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/login-status-iframe.html"
 	,"grant_types_supported":[
 		 "authorization_code"
 		,"implicit"
@@ -29,8 +29,7 @@
 		,"pairwise"
 	]
 	,"id_token_signing_alg_values_supported":[
-		 "PS384"
-		,"ES384"
+		 "ES384"
 		,"RS384"
 		,"HS256"
 		,"HS512"
@@ -38,13 +37,10 @@
 		,"RS256"
 		,"HS384"
 		,"ES512"
-		,"PS256"
-		,"PS512"
 		,"RS512"
 	]
 	,"userinfo_signing_alg_values_supported":[
-		 "PS384"
-		,"ES384"
+		 "ES384"
 		,"RS384"
 		,"HS256"
 		,"HS512"
@@ -52,20 +48,15 @@
 		,"RS256"
 		,"HS384"
 		,"ES512"
-		,"PS256"
-		,"PS512"
 		,"RS512"
 		,"none"
 	]
 	,"request_object_signing_alg_values_supported":[
-		 "PS384"
-		,"ES384"
+		 "ES384"
 		,"RS384"
 		,"ES256"
 		,"RS256"
 		,"ES512"
-		,"PS256"
-		,"PS512"
 		,"RS512"
 		,"none"
 	]
@@ -74,7 +65,7 @@
 		,"fragment"
 		,"form_post"
 	]
-	,"registration_endpoint":"https://192.168.60.10/auth/realms/demo/clients-registrations/openid-connect"
+	,"registration_endpoint":"http://localhost:8082/auth/realms/demo/clients-registrations/openid-connect"
 	,"token_endpoint_auth_methods_supported":[
 		 "private_key_jwt"
 		,"client_secret_basic"
@@ -85,8 +76,7 @@
 		 "RS256"
 	]
 	,"claims_supported":[
-		 "aud"
-		,"sub"
+		 "sub"
 		,"iss"
 		,"auth_time"
 		,"name"
@@ -101,14 +91,13 @@
 	,"claims_parameter_supported":false
 	,"scopes_supported":[
 		 "openid"
-		,"offline_access"
-		,"profile"
-		,"email"
 		,"address"
+		,"email"
+		,"offline_access"
 		,"phone"
+		,"profile"
 		,"roles"
 		,"web-origins"
-		,"microprofile-jwt"
 	]
 	,"request_parameter_supported":true
 	,"request_uri_parameter_supported":true
@@ -117,6 +106,6 @@
 		,"S256"
 	]
 	,"tls_client_certificate_bound_access_tokens":true
-	,"introspection_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/token/introspect"
+	,"introspection_endpoint":"http://localhost:8082/auth/realms/demo/protocol/openid-connect/token/introspect"
 }
 
