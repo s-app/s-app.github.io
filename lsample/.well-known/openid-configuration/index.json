@@ -1,12 +1,12 @@
 {
-	"issuer":"https://192.168.60.10/auth/realms/demo"
-	,"authorization_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/auth"
-	,"token_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/token"
-	,"token_introspection_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/token/introspect"
-	,"userinfo_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/userinfo"
-	,"end_session_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/logout"
-	,"jwks_uri":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/certs"
-	,"check_session_iframe":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/login-status-iframe.html"
+	 "issuer":"http://10.130.80.211:8080/auth/realms/acs"
+	,"authorization_endpoint":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/auth"
+	,"token_endpoint":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/token"
+	,"token_introspection_endpoint":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/token/introspect"
+	,"userinfo_endpoint":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/userinfo"
+	,"end_session_endpoint":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/logout"
+	,"jwks_uri":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/certs"
+	,"check_session_iframe":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/login-status-iframe.html"
 	,"grant_types_supported":[
 		 "authorization_code"
 		,"implicit"
@@ -74,7 +74,7 @@
 		,"fragment"
 		,"form_post"
 	]
-	,"registration_endpoint":"https://192.168.60.10/auth/realms/demo/clients-registrations/openid-connect"
+	,"registration_endpoint":"http://10.130.80.211:8080/auth/realms/acs/clients-registrations/openid-connect"
 	,"token_endpoint_auth_methods_supported":[
 		 "private_key_jwt"
 		,"client_secret_basic"
@@ -101,14 +101,14 @@
 	,"claims_parameter_supported":false
 	,"scopes_supported":[
 		 "openid"
-		,"offline_access"
-		,"profile"
-		,"email"
 		,"address"
+		,"email"
+		,"microprofile-jwt"
+		,"offline_access"
 		,"phone"
+		,"profile"
 		,"roles"
 		,"web-origins"
-		,"microprofile-jwt"
 	]
 	,"request_parameter_supported":true
 	,"request_uri_parameter_supported":true
@@ -117,5 +117,5 @@
 		,"S256"
 	]
 	,"tls_client_certificate_bound_access_tokens":true
-	,"introspection_endpoint":"https://192.168.60.10/auth/realms/demo/protocol/openid-connect/token/introspect"
+	,"introspection_endpoint":"http://10.130.80.211:8080/auth/realms/acs/protocol/openid-connect/token/introspect"
 }
